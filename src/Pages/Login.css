@@ -1,0 +1,35 @@
+.login-page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/Media/Signup.jpg");
+    background-size: cover;
+    background-position: center;
+}
+p{
+    font-style: italic
+}
+
+form{
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}

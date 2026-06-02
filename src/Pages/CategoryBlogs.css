@@ -1,0 +1,52 @@
+.home-container {
+  position: relative;
+}
+
+.home {
+  width: 100%;
+}
+
+.home img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  display: block;
+}
+
+.welcome {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.heading {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.trending-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}

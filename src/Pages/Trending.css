@@ -1,0 +1,23 @@
+.trending-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.trending-card:hover {
+  transform: translateY(-5px);
+}
+
+.trending-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.trending-card .card-body {
+  text-align: center;
+}
+
+.trending-card .card-title {
+  font-weight: bold;
+}
